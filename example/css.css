@@ -1,16 +1,16 @@
-.grid-item {
+/* .grid-item {
   background-color: aqua;
   /* width: 200px; */
-}
-.grid-item1 {
+/* } */
+/* .grid-item1 {
   background-color: blueviolet;
 
   font-size: 100px;
   align-self: flex-start;
   justify-self: flex-end;
-  /* grid-column: span 3; */
-}
-.grid-item2 {
+  grid-column: span 3;
+} */
+/* .grid-item2 {
   background-color: brown;
   font-size: 100px;
   grid-column: span 2;
@@ -18,8 +18,8 @@
 .grid-item3 {
   background-color: aqua;
   font-size: 100px;
-}
-.grid {
+} */
+/* .grid {
   display: inline;
 }
 .grid {
@@ -27,9 +27,9 @@
 }
 .grid {
   display: inline-block;
-}
+} */
 
-.grid {
+/* .grid {
   display: flex;
 }
 .grid {
@@ -37,19 +37,53 @@
 }
 
 .grid {
-  display: inline-grid;
-}
-.grid {
+  display: inline-grid; */
+/* } */
+/* .grid {
   display: grid;
   height: 2000px;
   grid-template-rows: repeat(3, 200px);
   grid-template-columns: repeat(3, 500px);
   align-items: center;
-  justify-items: center;
+  justify-items: center; */
   /* align-content: space-between; */
-  justify-content: stretch;
+  /* justify-content: stretch; */
   /* grid-template-rows: 100px 200px 300px; */
-  grid-column-gap: 15px;
+  /* grid-column-gap: 15px; */
   /* grid-row-gap: 50px; */
-  grid-auto-flow: ;
+  /* grid-auto-flow: ;
+/* } */ 
+/* table{
+  text-align: left;
+  font-style: normal;
+  position: absolute;
+
 }
+h1{
+  position: absolute;
+
+}
+ul {
+  font-size: 24px;
+}
+.wrapper{
+  height: 1000px;
+  border-style: dotted;
+  width: 100vw;
+  
+font-size: 2rem;
+  background: rgba(205, 214, 219, 0.2);;
+text-transform:capitalize;
+}
+.wrapper2{
+  font-size: 100%;
+  padding: 10px 20px;
+  margin: 30px;
+  border: 1px solid #040;
+text-decoration: line-through;
+}  */
+
+.card IMG { position: relative; }
+.three { top: 50px; left: 55px; z-index: 5; }
+.seven { left: -120px; top: 25px; z-index: 2; }
+.ace { left: -295px; z-index: 1; }
